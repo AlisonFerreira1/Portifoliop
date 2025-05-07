@@ -1,0 +1,55 @@
+@import url("../../style/sty.css");
+#barranavegacao {
+  background: none;
+  width: 100%;
+}
+#conteudonavegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+#botaomenu {
+  background: url("../imgs/symbols_menu_red.svg");
+  border: none;
+  width: 9%;
+  height: 1.5rem;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  border-radius: 5px 5px 0px 0px;
+}
+#logo {
+  width: 15%;
+  height: 1.5rem;
+}
+#logo img {
+  height: 1.4rem;
+  width: 4rem;
+}
+.menu {
+  width: 27%;
+  background: var(--secundary-color);
+  position: absolute;
+  top: 2.4rem;
+  left: 1rem;
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+  display: none;
+  border-radius: 0px 5px 5px 5px;
+}
+.menu li {
+  padding: 0.25rem;
+  border-bottom: 0.1rem solid var(--primary-color);
+}
+.menu li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+.menu.open {
+  display: block;
+  background-color: var(--secundary-color);
+}
