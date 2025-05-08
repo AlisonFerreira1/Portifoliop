@@ -9,5 +9,6 @@
   --quaternary-color: rgba(0, 0, 0, 0.788);
 }
 body {
+  color: white;
   background-color: black;
 }

@@ -1,80 +1,44 @@
 #conteudogeral {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  margin: 6rem;
 }
 #sobremim {
-  display: flex;
-  flex-direction: column-reverse;
+  display: grid;
   align-items: center;
-  margin: 0.5rem 2rem 1rem 2rem;
-  background-color: var(--secundary-color);
-  border-radius: 0.5rem;
-  gap: 1.5rem;
+  grid-template-columns: 2fr 3fr;
+  column-gap: 8rem;
 }
 #imagemsobremim {
-  display: flex;
-  justify-content: center;
-  background-color: var(--primary-color);
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem 0rem 1rem;
-  margin-top: 2rem;
+  width: 100%;
+  height: 25rem;
+  background-color: var(--terciary-color);
 }
-.conteudosobremim {
-  margin: 0rem 2rem 2rem 2rem;
-  color: aliceblue;
+
+.conteudosobremim h1 {
+  font-size: 3rem !important;
+}
+.conteudosobremim h3 {
+  font-size: 1.5rem !important;
+}
+.conteudosobremim p {
+  font-size: 1rem !important;
   text-align: justify;
-  border-radius: 0.5rem;
 }
-#sobremim h1 {
-  font-size: 1.3rem !important;
-}
+
 #sessaoum {
-  text-align: justify;
-  background-color: var(--secundary-color);
-  margin: 2rem;
-  padding: 2rem;
-  border-radius: 0.5rem;
-  color: white;
 }
 #sessaoum h1 {
-  margin-bottom: 0.9rem !important;
-  font-size: 1.3rem !important;
 }
 #sobrecontatos {
-  gap: 1.9rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 #linkgithub {
-  display: flex;
-  gap: 2rem;
 }
 #linkgithub img {
-  background-color: white;
-  border-radius: 1rem;
-  padding: 0.2rem;
 }
 #descricaocontatos {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  background-color: var(--quaternary-color);
-  border-radius: 0.5rem;
 }
 #imagemcontatos {
-  border-radius: 0.5rem;
-  height: 40%;
-  height: 100%;
 }
 #descricaocontatos span {
-  padding: 0rem 1rem 0rem 0rem;
 }
 #butao {
-  height: 3rem;
-  width: 100%;
-  border-radius: 3rem;
-  border: none;
-  background-color: var(--primary-color);
 }
