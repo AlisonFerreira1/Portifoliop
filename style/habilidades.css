@@ -1,0 +1,53 @@
+#conteudopag {
+  margin: 2.5rem 5rem 2rem 5rem;
+}
+#conteudohabilidade {
+  display: grid;
+  grid-template-areas:
+    "tituloprincipal tituloprincipal"
+    "habilidades imagemsobremim";
+
+  grid-template-columns: 3fr 2fr;
+  gap: 2rem;
+}
+#conteudohabilidade > div#tituloprincipal {
+  padding-bottom: 1rem;
+  grid-area: tituloprincipal;
+  font-size: 40px;
+  text-align: center;
+}
+#conteudohabilidade > div#habilidades {
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+  gap: 0.5rem;
+  grid-area: habilidades;
+}
+#conteudohabilidade > div#imagemsobremim {
+  grid-area: imagemsobremim;
+}
+#habilidades h4 {
+  font-size: 30px;
+}
+.skillgrid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-areas: "cardskillum cardskilldois";
+
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.skillgrid > div.cardskillum {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--terciary-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.skillgrid > div.cardskilldois {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--terciary-color);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
