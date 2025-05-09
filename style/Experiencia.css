@@ -1,0 +1,24 @@
+#conteudoxp {
+  margin: 2rem 5rem 2rem 5rem;
+}
+#sessaoinformacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+#sessaoinformacoes h1 {
+  font-size: 40px;
+}
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+  border-radius: 5rem 5rem 0rem 5rem;
+  gap: 1.5rem;
+  background-color: var(--terciary-color);
+}
+.informacoes h2 {
+  font-size: 25px;
+}
