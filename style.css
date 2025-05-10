@@ -4,6 +4,9 @@
 @import url("../../style/habilidades.css");
 @import url("../../style/experiencia.css");
 @import url("../../style/projetos.css");
+@import url("../../style/contatos.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
 :root {
   --primary-color: rgba(254, 62, 86, 100%);
@@ -11,7 +14,11 @@
   --terciary-color: rgba(114, 114, 114, 0.788);
   --quaternary-color: rgba(0, 0, 0, 0.788);
 }
+
 body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   color: white;
   background-color: black;
 }
