@@ -1,0 +1,25 @@
+#sessaoprojetos {
+  margin: 2rem 4rem 2rem 4rem;
+}
+.conteudoprojeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.conteudoprojeto h1 {
+  font-size: 40px;
+}
+.projetogrid {
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+.projetogrid > div.projetos {
+  background-color: var(--terciary-color);
+  width: 17rem;
+  height: 9rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}

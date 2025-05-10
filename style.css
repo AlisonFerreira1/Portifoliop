@@ -3,6 +3,7 @@
 @import url("../../style/home.css");
 @import url("../../style/habilidades.css");
 @import url("../../style/experiencia.css");
+@import url("../../style/projetos.css");
 
 :root {
   --primary-color: rgba(254, 62, 86, 100%);
