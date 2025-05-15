@@ -7,37 +7,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header id="barranavegacao">
-      <nav id="conteudonavegacao">
-        <div id="menu">
-          <a href="/routes/Habilidades.html">Habilidades</a>
-          <a href="/routes/Projetos.html">Projetos</a>
-          <a href="/routes/Experiencias.html">Experiencia</a>
-          <a href="/routes/Contatos.html">Contatos</a>
-        </div>
-        <div class="logo" id="logo">
-          <img src="../../imgs/logo.svg" alt="" />
-        </div>
-      </nav>
-    </header>
-
+    <header id="navbar"></header>
     <main id="conteudogeral">
       <section id="sobremim">
-        <div class="imagemsobremim" id="imagemsobremim">imagem</div>
+        <picture class="imagemsobremim" id="imagemsobremim">
+          <source
+            srcset="../../imgs/fotoperfil.png"
+            media="(min-width: 1024px)"
+          />
+          <img
+            loading="lazy"
+            src="../../imgs/fotoperfil.png"
+            alt="Capa do Instalura"
+          />
+        </picture>
+
         <div class="conteudosobremim">
-          <h1>Welcome I’m</h1>
-          <h1>Alison Ferreira</h1>
-          <br />
-          <br />
-          <h3>Am Web design & Developer</h3>
-          <br />
-          <br />
-          <p>
-            Iniciante em programação, atualmente cursando período de Ciência da
-            Computação. Tenho experiência com frameworks como Angular,
-            linguagens de marcação como HTML, além de conhecimento em linguagens
-            de programação como Python, Java e JavaScript.
-          </p>
+          <div class="texto">
+            <h1>Welcome I’m</h1>
+            <h1>Alison Ferreira</h1>
+            <br />
+            <br />
+            <h3>Am Web design & Developer</h3>
+            <br />
+            <br />
+            <p>
+              Iniciante em programação, atualmente cursando período de Ciência
+              da Computação. Tenho experiência com frameworks como Angular,
+              linguagens de marcação como HTML, além de conhecimento em
+              linguagens de programação como Python, Java e JavaScript.
+            </p>
+          </div>
         </div>
       </section>
     </main>
@@ -45,6 +45,6 @@
     <footer>
       <span>todos os direitos reservados</span>
     </footer>
-    <script src="script.js"></script>
   </body>
+  <script src="navbar.js"></script>
 </html>

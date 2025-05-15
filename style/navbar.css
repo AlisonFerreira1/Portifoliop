@@ -20,6 +20,10 @@
   font-size: 16px;
   text-decoration: none;
   color: white;
+  transition: color 1s;
+}
+#menu a:hover {
+  color: red;
 }
 
 #logo img {
